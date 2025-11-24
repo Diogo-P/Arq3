@@ -1,0 +1,9 @@
+# Exemplo com operações de memória
+ADDI R1,R0,100    
+ADDI R2,R0,42     
+STORE R2,0(R1)   
+STORE R2,4(R1)    
+LOAD R3,0(R1)     
+LOAD R4,4(R1)     
+ADD R5,R3,R4      
+STORE R5,8(R1)    
