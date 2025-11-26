@@ -1,4 +1,4 @@
-# Arq3
+# Simulador do Algoritmo de Tomasulo
 O intuito desse trabalho é simular o funcionamento do algoritmo de Tomasulo.
 
 Segue abaixo os tipos de instrução suportadas e suas respectivas durações em termos de ciclos em tempo de execução
