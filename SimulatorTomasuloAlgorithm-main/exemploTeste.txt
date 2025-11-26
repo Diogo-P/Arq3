@@ -1,8 +1,0 @@
-ADD R1, R2, R3    ; #1 - Inicia cadeia
-ADD R4, R1, R5    ; #2 - Depende de R1 (RAW)
-ADD R6, R7, R8    ; #3 - Independente - pode executar em paralelo
-MUL R9, R1, R10   ; #4 - Depende de R1 (RAW)  
-ADD R11, R12, R13 ; #5 - Independente - pode executar em paralelo
-ADD R14, R4, R9   ; #6 - Depende de R4 e R9 (RAW)
-LOAD R15, 100(R0) ; #7 - Acesso à memória - independente
-ADD R16, R17, R18 ; #8 - Independente
