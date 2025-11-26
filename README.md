@@ -14,15 +14,15 @@ Segue abaixo os tipos de instrução suportadas e suas respectivas durações em
 - LOAD: 5 ciclos
 - STORE: 5 ciclos
 
-
 Em termos de estrutura o projeto conta com:
 - 16 registradores arquiteturais e 32 registradores físicos
 - 8 slots de buffer de reordenamento
 - 7 estações de reserva (3 para ADD/SUB, 2 para MUL/DIV, 2 LOAD/STORE)
 
-para compilar: javac -d bin src/simulador/*.java src/gui/*.java
-para executar: java -cp bin gui.SimuladorMain
+Modo de uso
+- para compilar: javac -d bin src/simulador/*.java src/gui/*.java
+- para executar: java -cp bin gui.SimuladorMain
 
 As métricas de desempenho utilizadas são:
-->IPC: Instruções executadas/total de ciclos
-->Ciclos de bolha: ciclos ociosos no pipeline
+- IPC: Instruções executadas/total de ciclos
+- Ciclos de bolha: ciclos ociosos no pipeline
