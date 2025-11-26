@@ -16,8 +16,8 @@ STORE: 5 ciclos
 
 
 Em termos de estrutura o projeto conta com:
--> 16 registradores arquiteturais e 32 registradores físicos
--> 8 slots de buffer de reordenamento
+- 16 registradores arquiteturais e 32 registradores físicos
+- 8 slots de buffer de reordenamento
 -> 7 estações de reserva (3 para ADD/SUB, 2 para MUL/DIV, 2 LOAD/STORE)
 
 para compilar: javac -d bin src/simulador/*.java src/gui/*.java
