@@ -1,0 +1,5 @@
+LOAD R2, 0(R1)     ; Unidade Load/Store
+LOAD R4, 8(R1)     ; Unidade Load/Store (pode executar em paralelo)
+MUL R6, R2, R4   ; Unidade Multiplicação
+ADD R8, R2, R4   ; Unidade Adição (pode executar em paralelo com MUL)
+DIV R10, R6, R8  ; Unidade Divisão (longa latência)

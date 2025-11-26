@@ -1,0 +1,8 @@
+LOAD R2, 0(R1)      
+ADD R3, R2, R4      
+BNEZ R2, TARGET     
+MUL R5, R3, R6       
+ADD R7, R5, R8      
+TARGET:
+DIV R9, R10, R11    
+SUB R12, R9, R13    

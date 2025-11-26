@@ -1,0 +1,12 @@
+    LOAD R0, 0(R1)        ; Instr 1
+    LOAD R2, 8(R1)        ; Instr 2
+    ADD R4, R0, R2      ; Instr 3 - depende de 1 e 2
+    MUL R6, R4, R0      ; Instr 4 - depende de 3 e 1
+    BNEZ R3, BRANCH_A   ; Instr 5 - branch condicional
+    SUB R8, R6, R4      ; Instr 6 - caminho não tomado (especulativo)
+    J END
+BRANCH_A:
+    DIV R10, R6, R4     ; Instr 7 - caminho tomado (especulativo)
+    ADD R12, R10, R2    ; Instr 8 - depende de 7 e 2
+END:
+    STORE R12, 16(R1)      ; Instr 9
