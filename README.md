@@ -1,7 +1,7 @@
 # Simulador do Algoritmo de Tomasulo
 O intuito desse trabalho é simular o funcionamento do algoritmo de Tomasulo.
 
-Segue abaixo os tipos de instrução suportadas e suas respectivas durações em termos de ciclos em tempo de execução
+Segue abaixo os tipos de instrução suportadas e suas respectivas latências:
 - ADD: 1 ciclos
 - ADDI: 1 ciclos
 - SUB: 1 ciclos
