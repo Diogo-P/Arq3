@@ -20,8 +20,8 @@ Em termos de estrutura o projeto conta com:
 - 7 estações de reserva (3 para ADD/SUB, 2 para MUL/DIV, 2 LOAD/STORE)
 
 Modo de uso
-- para compilar: javac -d bin src/simulador/*.java src/gui/*.java
-- para executar: java -cp bin gui.SimuladorMain
+- **para compilar**: javac -d bin src/simulador/*.java src/gui/*.java
+- **para executar**: java -cp bin gui.SimuladorMain
 
 As métricas de desempenho utilizadas são:
 - IPC: Instruções executadas/total de ciclos
